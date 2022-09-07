@@ -1,0 +1,2 @@
+Route::get('google', [App\Http\Controllers\Auth\GoogleController::class, 'redirectToGoogle'])->name('google');
+Route::get('callback', [App\Http\Controllers\Auth\GoogleController::class, 'handleGoogleCallback'])->name('callback');

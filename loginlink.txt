@@ -1,0 +1,1 @@
+  <a href="{{route('google')}}" class="btn btn-link"><i class="fab fa-google fa-lg"></i>Google login</a>
